@@ -2,17 +2,17 @@
 
 🌾🌾🌾
 
-<div>
-  <img src="https://github.com/user-attachments/assets/b259c2e1-e653-4c89-94bc-75a9711927d3" alt="Image 1 Description" width="30%" />
-  <img src="https://github.com/user-attachments/assets/7874b352-f5a0-4e60-8f1e-e8dcc882c9a0" alt="Image 2 Description" width="30%" />
-  <img src="https://github.com/user-attachments/assets/b268e163-dace-4b69-a7b3-3d26bafd5dab" alt="Image 3 Description" width="30%" />
-</div>
-
 ## Objective
 
 This project features an AI assistant designed to help farmers make informed decisions about crop selection. By analyzing farmer profile data and market research data stored in a database, the AI utilizes generative models and database tools to recommend optimal crops based on various factors like soil conditions, farmer preferences, and market trends.
 
 This notebook was developed as part of the Gen AI Intensive Course Capstone 2025Q1.
+
+<div>
+  <img src="https://github.com/user-attachments/assets/b259c2e1-e653-4c89-94bc-75a9711927d3" alt="Image 1 Description" width="30%" />
+  <img src="https://github.com/user-attachments/assets/7874b352-f5a0-4e60-8f1e-e8dcc882c9a0" alt="Image 2 Description" width="30%" />
+  <img src="https://github.com/user-attachments/assets/b268e163-dace-4b69-a7b3-3d26bafd5dab" alt="Image 3 Description" width="30%" />
+</div>
 
 ## Problem Statement
 
@@ -34,6 +34,9 @@ The AI assistant follows these steps:
 2.  **Ask Clarifying Questions:** Gathers necessary information from the user based on the available data columns (e.g., Soil_pH, Soil_Moisture, Temperature_C, Rainfall_mm).
 3.  **Formulate Queries:** Constructs SQL SELECT queries using `execute_query()` based on user input and schema knowledge to filter relevant market and farmer data.
 4.  **Synthesize Recommendation:** Analyzes query results and presents the top crop choices, explaining the rationale based on the data (e.g., market demand, suitability to farm conditions).
+
+![image](https://github.com/user-attachments/assets/a109ee6a-c34e-4f49-811c-c8f3552bdc9d)
+
 
 ## Implementation Details
 
